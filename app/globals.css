@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --background: 255 255 255;
+  --foreground: 13 18 20;
+
+  --muted: 245 247 250;
+  --muted-foreground: 92 103 112;
+  --border: 229 231 235;
+  --ring: 125 211 252;
+
+  --card: 255 255 255;
+  --card-foreground: 13 18 20;
+}
+
+@theme inline {
+  --color-background: rgb(var(--background));
+  --color-foreground: rgb(var(--foreground));
+  --color-muted: rgb(var(--muted));
+  --color-muted-foreground: rgb(var(--muted-foreground));
+  --color-border: rgb(var(--border));
+  --color-ring: rgb(var(--ring));
+  --color-card: rgb(var(--card));
+  --color-card-foreground: rgb(var(--card-foreground));
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+.dark {
+  --background: 8 10 12;
+  --foreground: 236 240 243;
+
+  --muted: 18 25 31;
+  --muted-foreground: 160 174 185;
+  --border: 30 41 49;
+  --ring: 125 211 252;
+
+  --card: 10 14 17;
+  --card-foreground: 236 240 243;
+}
+
+body {
+  background: rgb(var(--background));
+  color: rgb(var(--foreground));
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, Segoe UI,
+    Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Subtle bubbles texture (bottle vibe) */
+.mn-bubbles {
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(125, 211, 252, 0.12) 0 2px, transparent 3px),
+    radial-gradient(circle at 70% 20%, rgba(251, 146, 60, 0.10) 0 2px, transparent 3px),
+    radial-gradient(circle at 40% 70%, rgba(125, 211, 252, 0.08) 0 2px, transparent 3px),
+    radial-gradient(circle at 85% 65%, rgba(125, 211, 252, 0.10) 0 2px, transparent 3px);
+  background-size: 260px 260px, 340px 340px, 300px 300px, 420px 420px;
+  background-repeat: repeat;
+}

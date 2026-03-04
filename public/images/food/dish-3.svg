@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#132a1f"/>
+      <stop offset="1" stop-color="#0b1012"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="35%" cy="22%" r="60%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="460" cy="230" r="520" fill="url(#shine)"/>
+  <g opacity="0.55" fill="#7dd3fc">
+    <circle cx="970" cy="160" r="6"/><circle cx="1040" cy="240" r="4"/><circle cx="1010" cy="320" r="5"/>
+    <circle cx="930" cy="270" r="3"/><circle cx="1090" cy="350" r="5"/><circle cx="960" cy="430" r="4"/>
+  </g>
+  <g>
+    <ellipse cx="610" cy="520" rx="320" ry="170" fill="#0f172a" opacity="0.6"/>
+    <ellipse cx="610" cy="500" rx="300" ry="150" fill="#111827"/>
+    <path d="M410 520c30-90 100-150 210-165 110-14 210 30 290 120 45 52 20 130-50 160-135 59-325 24-450-115z" fill="#22c55e" opacity="0.9"/>
+    <g opacity="0.9">
+      <circle cx="520" cy="470" r="26" fill="#fbbf24"/>
+      <circle cx="700" cy="500" r="24" fill="#f97316"/>
+      <circle cx="620" cy="430" r="18" fill="#fde68a"/>
+    </g>
+  </g>
+  <text x="50" y="740" fill="#e5e7eb" font-family="system-ui, -apple-system, Segoe UI, Roboto" font-size="42" opacity="0.85">
+    M&amp;N — Bubbly Citrus Salad (illustration)
+  </text>
+</svg>
+
+

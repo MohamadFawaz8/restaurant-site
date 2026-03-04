@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1b1b"/>
+      <stop offset="1" stop-color="#0b1012"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="40%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="520" cy="240" r="500" fill="url(#shine)"/>
+  <g opacity="0.45" fill="#93c5fd">
+    <circle cx="1040" cy="140" r="5"/><circle cx="990" cy="210" r="3"/><circle cx="1080" cy="280" r="4"/>
+    <circle cx="940" cy="300" r="3"/><circle cx="1010" cy="370" r="5"/><circle cx="960" cy="450" r="4"/>
+  </g>
+  <g>
+    <ellipse cx="600" cy="520" rx="330" ry="180" fill="#0f172a" opacity="0.6"/>
+    <ellipse cx="600" cy="500" rx="310" ry="160" fill="#111827"/>
+    <ellipse cx="600" cy="500" rx="250" ry="120" fill="#ef4444" opacity="0.92"/>
+    <path d="M420 470c40-60 120-95 180-95 70 0 150 38 200 110" fill="none" stroke="#fecaca" stroke-width="18" stroke-linecap="round" opacity="0.75"/>
+  </g>
+  <text x="50" y="740" fill="#e5e7eb" font-family="system-ui, -apple-system, Segoe UI, Roboto" font-size="42" opacity="0.85">
+    M&amp;N — Smoked Glass Tomato Soup (illustration)
+  </text>
+</svg>
+
+
